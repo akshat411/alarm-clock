@@ -1,0 +1,83 @@
+.webpage{
+    color: black;
+}
+
+
+button {
+    margin: 3px 5px 16px 4px;
+    padding: 8px 10px;
+    background-color: rgb(18, 36, 104);
+    border-radius: 4%;
+    font: 20px;
+    color: rgb(210, 208, 208);
+}
+
+.playbutton {
+    border-radius: 8%;
+    border: none;
+}
+
+.mode{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    border: solid;
+    border-radius: 2%;
+    padding: 20px 20px 30px 30px;
+   border: none;
+   border-width: 4px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 20px;
+}
+
+.timer {
+    margin: 70px 40px;
+}
+
+#alarm {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.btn {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h2{
+    color: aliceblue;
+    text-align-last: center;
+}
+
+li {
+    margin: 10px 10px;
+    padding-bottom: 10px;
+}
+
+  .didyouknow {
+    color: whitesmoke;
+    background-image: url(./songs/1920x1080-black-wallpaper-1.jpg); 
+    margin: 20px;
+    opacity: 0; 
+    animation: fadeIn 1s ease forwards;
+    transform: translateY(20px);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+        transform: translateY(70px);
+    }
+    to {
+        opacity: 0.7;
+        transform: translateY(0); 
+    }
+}
